@@ -1,0 +1,19 @@
+{
+  "defaultConnection": "default",
+  "connections": {
+    "default": {
+      "connector": "strapi-hook-mongoose",
+      "settings": {
+        "client": "mongo",
+        "host": "ds023714.mlab.com",
+        "port": "23714",
+        "database": "blog-api-isight",
+        "username": "boomtown",
+        "password": "boomtown1"
+      },
+      "options": {
+        "authenticationDatabase": "blog-api-isight"
+      }
+    }
+  }
+}
