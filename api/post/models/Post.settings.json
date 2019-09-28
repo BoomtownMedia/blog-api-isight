@@ -23,15 +23,9 @@
       "via": "related",
       "plugin": "upload"
     },
-    "category": {
-      "enum": [
-        "agriculture",
-        "infrastructure",
-        "construction",
-        "data",
-        "education"
-      ],
-      "type": "enumeration"
+    "tag": {
+      "model": "tag",
+      "via": "posts"
     }
   }
 }
