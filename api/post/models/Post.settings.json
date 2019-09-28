@@ -1,6 +1,6 @@
 {
   "connection": "default",
-  "collectionName": "",
+  "collectionName": "post",
   "info": {
     "name": "post",
     "description": ""
@@ -22,6 +22,16 @@
       "model": "file",
       "via": "related",
       "plugin": "upload"
+    },
+    "category": {
+      "enum": [
+        "agriculture",
+        "infrastructure",
+        "construction",
+        "data",
+        "education"
+      ],
+      "type": "enumeration"
     }
   }
 }
