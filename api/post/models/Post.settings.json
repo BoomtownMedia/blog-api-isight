@@ -26,6 +26,9 @@
     "tag": {
       "model": "tag",
       "via": "posts"
+    },
+    "slug": {
+      "type": "string"
     }
   }
 }
