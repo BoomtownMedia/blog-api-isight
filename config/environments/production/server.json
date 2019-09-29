@@ -3,10 +3,7 @@
   "port": "${process.env.PORT || 1337}",
   "production": true,
   "proxy": {
-    "enabled": true,
-    "ssl": true,
-    "host": "soccer-app-182411.appspot.com",
-    "port": 443
+    "enabled": false
   },
   "autoReload": {
     "enabled": false
