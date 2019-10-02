@@ -20,6 +20,9 @@
     },
     "event_location": {
       "type": "string"
+    },
+    "author": {
+      "type": "string"
     }
   }
 }
