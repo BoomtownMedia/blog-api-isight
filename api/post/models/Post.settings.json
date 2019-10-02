@@ -35,6 +35,9 @@
       "type": "string",
       "unique": true,
       "required": true
+    },
+    "author": {
+      "type": "string"
     }
   }
 }

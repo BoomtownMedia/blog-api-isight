@@ -1,6 +1,6 @@
 {
   "connection": "default",
-  "collectionName": "",
+  "collectionName": "video",
   "info": {
     "name": "video",
     "description": ""
@@ -16,6 +16,11 @@
     },
     "title": {
       "type": "string"
+    },
+    "poster_img": {
+      "model": "file",
+      "via": "related",
+      "plugin": "upload"
     }
   }
 }
