@@ -27,17 +27,14 @@
       "plugin": "upload",
       "required": true
     },
-    "tag": {
-      "model": "tag",
-      "via": "posts"
-    },
     "slug": {
       "type": "string",
       "unique": true,
       "required": true
     },
     "author": {
-      "type": "string"
+      "type": "string",
+      "required": true
     }
   }
 }
