@@ -28,11 +28,6 @@
       "plugin": "upload",
       "required": true
     },
-    "slug": {
-      "type": "string",
-      "unique": true,
-      "required": true
-    },
     "author": {
       "type": "string",
       "required": true
